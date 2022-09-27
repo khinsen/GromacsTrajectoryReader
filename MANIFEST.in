@@ -1,0 +1,7 @@
+include README
+include GromacsTrajectory.c
+include GromacsTrajectory.pyx
+include gromacs_xtc.c gromacs_xtc.h
+include numeric.pxi
+include example.py
+include setup.py

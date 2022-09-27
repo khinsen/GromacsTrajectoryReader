@@ -1,0 +1,20 @@
+This Python module reads GROMACS trajectory files in xtc format.
+It is based on the library libxdrf.c from GROMACS. In fact, the file
+gromacs_xtc.c is a stripped-down version of that GROMACS library file,
+from which the Fortran interface routines were removed in order to get
+rid of the architecture dependence of the Fortran interface. The file
+GromacsTrajectory.pyx is the Python interface, written in Pyrex.
+
+For an example, see the script "example.py".
+
+Installation:
+
+    python setup.py build
+    python setup.py install   (may require administrator rights)
+
+
+Konrad Hinsen
+Centre de Biophysique Moleculaire (CNRS Orléans)
+and
+Synchtron Soleil (Saint Aubin, France)
+E-Mail: hinsen@cnrs-orleans.fr
