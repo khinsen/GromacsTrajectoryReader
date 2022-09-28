@@ -13,7 +13,7 @@ import numpy.distutils.misc_util
 
 
 setup (name = "GromacsTrajectoryReader",
-       version = "0.12",
+       version = "0.13",
        description = "Gromacs trajectory file reader",
 
        ext_modules = [Extension('GromacsTrajectory',
